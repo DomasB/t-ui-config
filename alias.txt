@@ -2,22 +2,17 @@
 
 root=cd /
 st=settings
-mp3=mv Downloads/*.mp3 Music
-pdf=mv Downloads/*.pdf Docs
+
 lp=Lastpass
 cl=clear
-gn=Google
-fm=Messenger
-fb=Facebook
-fd=feedly
+sp=Spotify
+pod=Podcast Addict
 ft=Camera
 sudo=su -c "%"
 wen=sudo svc wifi enable
 wdi=sudo svc wifi disable
 den=sudo svc data enable
 ddi=sudo svc data disable
-gs=sudo am start -a "android.intent.action.WEB_SEARCH" -e "query" '%'
 
-we=gs weather
 
 book=Lithium

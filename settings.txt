@@ -51,8 +51,8 @@ keepAliveWithNotification=false
 openKeyboardOnStart=true
 
 // music
-fromMediastore=true
-playRandom=true
+fromMediastore=fale
+playRandom=false
 songsFolder=/sdcard/Music
 
 // others
@@ -65,4 +65,4 @@ showDonationMessage=false
 showAliasValue=true
 
 // commands
-defaultSearch=-g
+defaultSearch=-dd

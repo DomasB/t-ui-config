@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CMD>
-<default_search value="-gg"/>
-<default_translatefrom value="it"/>
-<default_translateto value="en"/>
+  <default_search value="-dd" />
+  <default_translatefrom value="lt" />
+  <default_translateto value="en" />
 </CMD>

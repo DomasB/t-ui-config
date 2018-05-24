@@ -1,22 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <NOTIFICATIONS>
-<show_notifications value="true"/>
-<app_notification_enabled_default value="true"/>
-<default_notification_color value="#00FF00"/>
-<notification_format value="(%t) %pkg - %[40][#00ff00]title -- %[100][aqua]bigText"/>
-<com.whatsapp enabled="true" color="#25D366"/>
-<com.google.android.apps.inbox enabled="true" color="#03A9F4"/>
-<com.paypal.android.p2pmobile enabled="true" color="#003087"/>
-<com.google.android.apps.plus enabled="true" color="#dd4b39"/>
-<com.facebook.katana enabled="true" color="#3b5998"/>
-<com.twitter.android enabled="true" color="#1da1f2"/>
-<com.android.vending enabled="true" color="#34a853"/>
-<filter on="text" value=".*Gboard" id="1"/>
-<apply id="1" package="android"/>
-<filter id="1" value="Change keyboard"/>
-<click_notification value="true"/>
-<long_click_notification value="true"/>
-<notification_popup_exclude_app value="true"/>
-<notification_popup_exclude_notification value="true"/>
-<notification_popup_reply value="true"/>
+  <show_notifications value="true" />
+  <app_notification_enabled_default value="true" />
+  <default_notification_color value="#00FF00" />
+  <notification_format value="(%t) %pkg - %[40][#00ff00]title -- %[100][aqua]bigText" />
+  <com.whatsapp enabled="true" color="#25D366" />
+  <com.google.android.apps.inbox enabled="true" color="#03A9F4" />
+  <com.paypal.android.p2pmobile enabled="true" color="#003087" />
+  <com.google.android.apps.plus enabled="true" color="#dd4b39" />
+  <com.android.vending enabled="true" color="#34a853" />
+  <filter on="text" value=".*Gboard" id="1" />
+  <apply id="1" package="android" />
+  <filter id="1" value="Change keyboard" />
+  <click_notification value="true" />
+  <long_click_notification value="true" />
+  <notification_popup_exclude_app value="true" />
+  <notification_popup_exclude_notification value="true" />
+  <notification_popup_reply value="true" />
 </NOTIFICATIONS>
