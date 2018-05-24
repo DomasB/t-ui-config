@@ -1,0 +1,34 @@
+
+
+Mon Oct 16 22:43:07 GMT+03:00 2017
+com.a.a.a: Application Not Responding
+Caused by: com.a.a.a$a$a: main (state = BLOCKED)
+	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:541)
+	at android.os.Handler.enqueueMessage(Handler.java:631)
+	at android.os.Handler.sendMessageAtTime(Handler.java:600)
+	at android.os.Handler.sendMessageDelayed(Handler.java:570)
+	at android.os.Handler.post(Handler.java:326)
+	at android.view.View.post(View.java:12982)
+	at ohi.andre.consolelauncher.managers.f.a(Unknown Source)
+	at ohi.andre.consolelauncher.managers.f.b(Unknown Source)
+	at ohi.andre.consolelauncher.managers.f.a(Unknown Source)
+	at ohi.andre.consolelauncher.b.a(Unknown Source)
+	at ohi.andre.consolelauncher.LauncherActivity$3.a(Unknown Source)
+	at ohi.andre.consolelauncher.tuils.b.b$2.a(Unknown Source)
+	at ohi.andre.consolelauncher.tuils.b.a$c$3.run(Unknown Source)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5480)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+
+Sat Oct 21 08:57:41 GMT+03:00 2017
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$ArrayListIterator.next(ArrayList.java:573)
+	at ohi.andre.consolelauncher.tuils.c.a(Unknown Source)
+	at ohi.andre.consolelauncher.managers.b.b.e(Unknown Source)
+	at ohi.andre.consolelauncher.managers.b.b.a(Unknown Source)
+	at ohi.andre.consolelauncher.b$15.run(Unknown Source)
